@@ -1,0 +1,50 @@
+.board-container{
+    width: 360px;
+    margin-left: 2.5rem;
+}
+.board-container:last-child{
+    margin-right: 2.5rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0rem;
+}
+.left-header, .right-header{
+    display: flex;
+    align-items: center;
+}
+.s-icon{
+    margin-right: .5rem;
+    display: flex;
+    align-items: center;
+}
+.title{
+    margin-right: .65rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.add-item{
+    margin-right: .5rem;
+    cursor: pointer;
+    color: var(--textgrey);
+}
+.option-item{
+    margin-right: .5rem;
+    cursor: pointer;
+    color: var(--textgrey);
+}
+.card-items{
+    width: 100%;
+}
+
+@media (max-width: 500px) and (min-width: 300px){
+    .board-container{
+        width: 320px;
+        margin-left: 1.5rem;
+    }
+    .board-container:last-child{
+        margin-right: 1.5rem;
+    }
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --white: #ffffff;
+    --black: #000000;
+  
+    --textgrey: #85878d;
+  
+    --grey1: #e8e8f7;
+    --grey2: #e6e6e6;
+    --grey3: #f7f7f7;
+  
+  }
+  .details{
+    width: 100%;
+    height: calc(100vh - 68px);
+    background-color: var(--grey2);
+    overflow-x: scroll;
+  }
+  .details-list{
+    width: fit-content;
+    display: flex;
+  }

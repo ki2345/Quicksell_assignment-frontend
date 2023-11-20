@@ -1,0 +1,94 @@
+.div1{
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1px solid #bdb8b8;
+    box-shadow: 0px 2px 8px 1px #bbb8b8;
+    background-color: var(--white);
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.div2-id{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.div3-card-id{
+    color: var(--textgrey);
+    font-size: .95rem;
+    font-weight: 500;
+}
+.div4-profile{
+    height: 26px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    background-color: #0c8ab0;
+    border-radius: 50%;
+    font-size: .8rem;
+    position: relative;
+}
+.div5-initial{
+    text-transform: uppercase;
+}
+.div5-initial-available{
+    height: 12px;
+    width: 12px;
+    background-color: var(--grey1);
+    border: 1.5px solid var(--white);
+    position: absolute;
+    z-index: 0;
+    border-radius: 50%;
+    left: 70%;
+    top: 70%;
+}
+.div5-initial-available-true{
+    background-color: rgb(12, 223, 100);
+}
+.div6-title{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--black);
+
+}
+.div7-tag{
+    display: flex;
+    align-items: center;
+    margin-top: .8rem;
+}
+.div8-tagicon{
+    border: 1px solid var(--grey1);
+    border-radius: .3rem;
+    width: fit-content;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin-right: .5rem;
+
+}
+.div8-tagicon > svg{
+    color: var(--textgrey);
+    height: 20px;
+}
+.div9-tagbox{
+    border: 1px solid var(--grey1);
+    padding: .3rem;
+    border-radius: .3rem;
+    width: fit-content;
+}
+.div10-tagtitle{
+    font-size: .85rem;
+    font-weight: 500;
+    color: var(--textgrey);
+}
+.div10-tagtitle::before{
+    display: inline-block;
+    content: " ";
+    height: 10px;
+    width: 10px;
+    background-color: var(--textgrey);
+    border-radius: 50%;
+    margin-right: .2rem;
+}
